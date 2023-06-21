@@ -1,0 +1,184 @@
+src/main/java/com/mediaplayer/MediaPlayerApplication.java(7,  CommentRequired):  CommentRequired: Class comments are required
+src/main/java/com/mediaplayer/MediaPlayerApplication.java(7,  UseUtilityClass):  UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/mediaplayer/MediaPlayerApplication.java(9,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/MediaPlayerApplication.java(9,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/mediaplayer/controller/CommentController.java(9,  UnnecessaryImport):  UnnecessaryImport: Unused import 'org.springframework.http.ResponseEntity'
+src/main/java/com/mediaplayer/controller/CommentController.java(11,  UnnecessaryImport):  UnnecessaryImport: Unused import 'org.springframework.web.bind.annotation.ExceptionHandler'
+src/main/java/com/mediaplayer/controller/CommentController.java(15,  UnnecessaryImport):  UnnecessaryImport: Unused import 'org.springframework.web.bind.annotation.PutMapping'
+src/main/java/com/mediaplayer/controller/CommentController.java(17,  UnnecessaryImport):  UnnecessaryImport: Unused import 'org.springframework.web.bind.annotation.RequestParam'
+src/main/java/com/mediaplayer/controller/CommentController.java(19,  UnnecessaryImport):  UnnecessaryImport: Unused import 'org.springframework.web.method.annotation.MethodArgumentTypeMismatchException'
+src/main/java/com/mediaplayer/controller/CommentController.java(22,  UnnecessaryImport):  UnnecessaryImport: Unused import 'com.mediaplayer.service.CommentService'
+src/main/java/com/mediaplayer/controller/CommentController.java(25,  UnnecessaryImport):  UnnecessaryImport: Unused import 'jakarta.persistence.EntityManager'
+src/main/java/com/mediaplayer/controller/CommentController.java(26,  UnnecessaryImport):  UnnecessaryImport: Unused import 'jakarta.persistence.PersistenceContext'
+src/main/java/com/mediaplayer/controller/CommentController.java(30,  AtLeastOneConstructor):  AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/mediaplayer/controller/CommentController.java(30,  CommentRequired):  CommentRequired: Class comments are required
+src/main/java/com/mediaplayer/controller/CommentController.java(32,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/controller/CommentController.java(33,  CommentDefaultAccessModifier):  CommentDefaultAccessModifier: Missing commented default access modifier on field 'logger'
+src/main/java/com/mediaplayer/controller/CommentController.java(33,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/controller/CommentController.java(36,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/controller/CommentController.java(36,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/main/java/com/mediaplayer/controller/CommentController.java(36,  ShortVariable):  ShortVariable: Avoid variables with short names like c
+src/main/java/com/mediaplayer/controller/CommentController.java(38,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'comment' could be declared final
+src/main/java/com/mediaplayer/controller/CommentController.java(38,  UnnecessaryLocalBeforeReturn):  UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'comment'
+src/main/java/com/mediaplayer/controller/CommentController.java(45,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/controller/CommentController.java(45,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'videoId' is not assigned and could be declared final
+src/main/java/com/mediaplayer/controller/CommentController.java(51,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/controller/CommentController.java(51,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'commentId' is not assigned and could be declared final
+src/main/java/com/mediaplayer/controller/CommentController.java(58,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/controller/CommentController.java(58,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/com/mediaplayer/entity/Comment.java(11,  UnnecessaryImport):  UnnecessaryImport: Unused import 'lombok.AllArgsConstructor'
+src/main/java/com/mediaplayer/entity/Comment.java(12,  UnnecessaryImport):  UnnecessaryImport: Unused import 'lombok.Data'
+src/main/java/com/mediaplayer/entity/Comment.java(20,  CommentRequired):  CommentRequired: Class comments are required
+src/main/java/com/mediaplayer/entity/Comment.java(20,  DataClass):  DataClass: The class 'Comment' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=12, WMC=13)
+src/main/java/com/mediaplayer/entity/Comment.java(24,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/entity/Comment.java(25,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/entity/Comment.java(26,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/entity/Comment.java(27,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/entity/Comment.java(29,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/entity/Comment.java(31,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/entity/Comment.java(34,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/entity/Comment.java(34,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'commentId' is not assigned and could be declared final
+src/main/java/com/mediaplayer/entity/Comment.java(34,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'date' is not assigned and could be declared final
+src/main/java/com/mediaplayer/entity/Comment.java(34,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/mediaplayer/entity/Comment.java(34,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'time' is not assigned and could be declared final
+src/main/java/com/mediaplayer/entity/Comment.java(47,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'commentId' is not assigned and could be declared final
+src/main/java/com/mediaplayer/entity/Comment.java(57,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/mediaplayer/entity/Comment.java(67,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'userId' is not assigned and could be declared final
+src/main/java/com/mediaplayer/entity/Comment.java(77,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'videoId' is not assigned and could be declared final
+src/main/java/com/mediaplayer/entity/Comment.java(87,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'date' is not assigned and could be declared final
+src/main/java/com/mediaplayer/entity/Comment.java(97,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'time' is not assigned and could be declared final
+src/main/java/com/mediaplayer/exceptionHandler/GlobalExceptionHandler.java(1,  PackageCase):  PackageCase: Package name contains upper case characters
+src/main/java/com/mediaplayer/exceptionHandler/GlobalExceptionHandler.java(19,  AtLeastOneConstructor):  AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/mediaplayer/exceptionHandler/GlobalExceptionHandler.java(19,  CommentRequired):  CommentRequired: Class comments are required
+src/main/java/com/mediaplayer/exceptionHandler/GlobalExceptionHandler.java(22,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/exceptionHandler/GlobalExceptionHandler.java(22,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/mediaplayer/exceptionHandler/GlobalExceptionHandler.java(22,  ShortVariable):  ShortVariable: Avoid variables with short names like ex
+src/main/java/com/mediaplayer/exceptionHandler/GlobalExceptionHandler.java(23,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'errorResponse' could be declared final
+src/main/java/com/mediaplayer/exceptions/InvalidCommentException.java(7,  UnnecessaryImport):  UnnecessaryImport: Unused import 'org.springframework.web.bind.annotation.ResponseStatus'
+src/main/java/com/mediaplayer/exceptions/InvalidCommentException.java(9,  UnnecessaryImport):  UnnecessaryImport: Unused import 'lombok.Data'
+src/main/java/com/mediaplayer/exceptions/InvalidCommentException.java(11,  CommentRequired):  CommentRequired: Class comments are required
+src/main/java/com/mediaplayer/exceptions/InvalidCommentException.java(11,  MissingSerialVersionUID):  MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/mediaplayer/exceptions/InvalidCommentException.java(12,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/exceptions/InvalidCommentException.java(13,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/exceptions/InvalidCommentException.java(14,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/exceptions/InvalidCommentException.java(16,  CallSuperInConstructor):  CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/main/java/com/mediaplayer/exceptions/InvalidCommentException.java(16,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/exceptions/InvalidCommentException.java(16,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/mediaplayer/exceptions/InvalidCommentException.java(16,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/mediaplayer/exceptions/InvalidCommentException.java(26,  MissingOverride):  MissingOverride: The method 'getMessage()' is missing an @Override annotation.
+src/main/java/com/mediaplayer/repository/CommentRepository.java(18,  CommentRequired):  CommentRequired: Class comments are required
+src/main/java/com/mediaplayer/repository/CommentRepository.java(20,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/repository/CommentRepository.java(20,  FormalParameterNamingConventions):  FormalParameterNamingConventions: The method parameter name 'VideoId' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/com/mediaplayer/repository/CommentRepository.java(24,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/response/ErrorResponse.java(5,  CommentRequired):  CommentRequired: Class comments are required
+src/main/java/com/mediaplayer/response/ErrorResponse.java(6,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/response/ErrorResponse.java(6,  ImmutableField):  ImmutableField: Field 'status' may be declared final
+src/main/java/com/mediaplayer/response/ErrorResponse.java(7,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/response/ErrorResponse.java(7,  ImmutableField):  ImmutableField: Field 'message' may be declared final
+src/main/java/com/mediaplayer/response/ErrorResponse.java(8,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/response/ErrorResponse.java(8,  ImmutableField):  ImmutableField: Field 'timestamp' may be declared final
+src/main/java/com/mediaplayer/response/ErrorResponse.java(10,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/response/ErrorResponse.java(10,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/mediaplayer/response/ErrorResponse.java(10,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/mediaplayer/response/ErrorResponse.java(10,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'timestamp' is not assigned and could be declared final
+src/main/java/com/mediaplayer/service/CommentService.java(18,  CommentRequired):  CommentRequired: Class comments are required
+src/main/java/com/mediaplayer/service/CommentService.java(20,  CommentRequired):  CommentRequired: Field comments are required
+src/main/java/com/mediaplayer/service/CommentService.java(20,  ImmutableField):  ImmutableField: Field 'commentRepo' may be declared final
+src/main/java/com/mediaplayer/service/CommentService.java(29,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/service/CommentService.java(29,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'commentRepo' is not assigned and could be declared final
+src/main/java/com/mediaplayer/service/CommentService.java(34,  AvoidUncheckedExceptionsInSignatures):  AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/mediaplayer/service/CommentService.java(34,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/main/java/com/mediaplayer/service/CommentService.java(34,  MissingOverride):  MissingOverride: The method 'addnewComment(Comment)' is missing an @Override annotation.
+src/main/java/com/mediaplayer/service/CommentService.java(34,  ShortVariable):  ShortVariable: Avoid variables with short names like c
+src/main/java/com/mediaplayer/service/CommentService.java(41,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'comment' could be declared final
+src/main/java/com/mediaplayer/service/CommentService.java(41,  UnnecessaryLocalBeforeReturn):  UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'comment'
+src/main/java/com/mediaplayer/service/CommentService.java(46,  AvoidUncheckedExceptionsInSignatures):  AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/mediaplayer/service/CommentService.java(46,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'videoId' is not assigned and could be declared final
+src/main/java/com/mediaplayer/service/CommentService.java(46,  MissingOverride):  MissingOverride: The method 'allComments(int)' is missing an @Override annotation.
+src/main/java/com/mediaplayer/service/CommentService.java(48,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/com/mediaplayer/service/CommentService.java(59,  AvoidUncheckedExceptionsInSignatures):  AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/main/java/com/mediaplayer/service/CommentService.java(59,  MethodArgumentCouldBeFinal):  MethodArgumentCouldBeFinal: Parameter 'commentId' is not assigned and could be declared final
+src/main/java/com/mediaplayer/service/CommentService.java(59,  MissingOverride):  MissingOverride: The method 'deleteComment(int)' is missing an @Override annotation.
+src/main/java/com/mediaplayer/service/CommentService.java(60,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'c' could be declared final
+src/main/java/com/mediaplayer/service/CommentService.java(60,  ShortVariable):  ShortVariable: Avoid variables with short names like c
+src/main/java/com/mediaplayer/service/CommentServiceint.java(6,  UnnecessaryImport):  UnnecessaryImport: Unused import 'com.mediaplayer.exceptions.InvalidCommentException'
+src/main/java/com/mediaplayer/service/CommentServiceint.java(8,  CommentRequired):  CommentRequired: Class comments are required
+src/main/java/com/mediaplayer/service/CommentServiceint.java(10,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/service/CommentServiceint.java(12,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/service/CommentServiceint.java(14,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/main/java/com/mediaplayer/service/CommentServiceint.java(14,  ShortVariable):  ShortVariable: Avoid variables with short names like c
+src/test/java/com/mediaplayer/MediaPlayerApplicationTests.java(7,  AtLeastOneConstructor):  AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/mediaplayer/MediaPlayerApplicationTests.java(7,  CommentRequired):  CommentRequired: Class comments are required
+src/test/java/com/mediaplayer/MediaPlayerApplicationTests.java(10,  JUnitTestsShouldIncludeAssert):  JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/mediaplayer/MediaPlayerApplicationTests.java(10,  UncommentedEmptyMethodBody):  UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(1,  TooManyStaticImports):  TooManyStaticImports: Too many static imports may lead to messy code
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(40,  AtLeastOneConstructor):  AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(40,  ClassNamingConventions):  ClassNamingConventions: The class name 'commentServiceImplStub' doesn't match '^Test.*$|^[A-Z][a-zA-Z0-9]*Test(s|Case)?$'
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(40,  CommentRequired):  CommentRequired: Class comments are required
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(40,  JUnit5TestShouldBePackagePrivate):  JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(43,  CommentRequired):  CommentRequired: Field comments are required
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(43,  LongVariable):  LongVariable: Avoid excessively long variable names like globalExceptionHandler
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(45,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(45,  JUnit5TestShouldBePackagePrivate):  JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(45,  JUnitTestContainsTooManyAsserts):  JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(46,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'commentRepo' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(47,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'service' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(49,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'comment' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(61,  AvoidUncheckedExceptionsInSignatures):  AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(61,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(61,  JUnit5TestShouldBePackagePrivate):  JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(61,  JUnitTestContainsTooManyAsserts):  JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(62,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'commentRepo' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(63,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'service' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(65,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'comment' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(67,  UnnecessaryFullyQualifiedName):  UnnecessaryFullyQualifiedName: Unnecessary qualifier 'Mockito': 'when' is already in scope
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(69,  UnusedAssignment):  UnusedAssignment: The value assigned to variable 'result' is never used (overwritten on line 69)
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(70,  JUnitAssertionsShouldIncludeMessage):  JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(71,  JUnitAssertionsShouldIncludeMessage):  JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(77,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(77,  JUnit5TestShouldBePackagePrivate):  JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(77,  JUnitTestContainsTooManyAsserts):  JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(77,  LinguisticNaming):  LinguisticNaming: Linguistics Antipattern - The getter 'getCommentTest' should not return void linguistically
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(78,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'commentRepo' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(79,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'service' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(81,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'videoId' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(92,  AvoidUncheckedExceptionsInSignatures):  AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(92,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(92,  JUnit5TestShouldBePackagePrivate):  JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(92,  JUnitTestContainsTooManyAsserts):  JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(92,  LinguisticNaming):  LinguisticNaming: Linguistics Antipattern - The getter 'getCommentTest1' should not return void linguistically
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(93,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'commentRepo' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(94,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'service' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(96,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'videoId' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(97,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(100,  UnnecessaryFullyQualifiedName):  UnnecessaryFullyQualifiedName: Unnecessary qualifier 'Mockito': 'when' is already in scope
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(101,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(102,  JUnitAssertionsShouldIncludeMessage):  JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(104,  JUnitAssertionsShouldIncludeMessage):  JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(110,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(110,  JUnit5TestShouldBePackagePrivate):  JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(110,  JUnitTestContainsTooManyAsserts):  JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(111,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'commentRepo' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(112,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'service' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(114,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'commentId' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(115,  UnnecessaryFullyQualifiedName):  UnnecessaryFullyQualifiedName: Unnecessary qualifier 'Mockito': 'when' is already in scope
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(126,  AvoidUncheckedExceptionsInSignatures):  AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(126,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(126,  JUnit5TestShouldBePackagePrivate):  JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(126,  JUnitTestContainsTooManyAsserts):  JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(127,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'commentRepo' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(128,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'service' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(130,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'commentId' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(131,  UnnecessaryFullyQualifiedName):  UnnecessaryFullyQualifiedName: Unnecessary qualifier 'Mockito': 'when' is already in scope
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(132,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(133,  JUnitAssertionsShouldIncludeMessage):  JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(138,  CommentRequired):  CommentRequired: Public method and constructor comments are required
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(138,  JUnit5TestShouldBePackagePrivate):  JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(138,  JUnitTestContainsTooManyAsserts):  JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(139,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'exception' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(140,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(142,  JUnitAssertionsShouldIncludeMessage):  JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(143,  LawOfDemeter):  LawOfDemeter: Call to `getBody` on foreign value `response` (degree 1)
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(143,  LocalVariableCouldBeFinal):  LocalVariableCouldBeFinal: Local variable 'errorResponse' could be declared final
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(144,  JUnitAssertionsShouldIncludeMessage):  JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/mediaplayer/service/commentServiceImplStub.java(146,  JUnitAssertionsShouldIncludeMessage):  JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
